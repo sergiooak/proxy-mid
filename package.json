@@ -1,0 +1,11 @@
+{
+  "name": "oinnos-mid-https-new",
+  "version": "1.0.0",
+  "description": "Middleware to pipe HTTPS requests to HTTP",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Oinnos Tecnologia",
+  "license": "ISC"
+}

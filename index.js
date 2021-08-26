@@ -28,6 +28,6 @@ acceptor.on("request", function (request, response) {
   
   
   request.on("error", function (err) {
-    connector.requ
+   
   })
 });
