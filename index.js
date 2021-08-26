@@ -1,6 +1,6 @@
 const url = require("url");
 const http = require("http");
-const acceptor = http.createServer().listen(80);
+const acceptor = http.createServer().listen(process.env.PORT || 8080);
 
 acceptor.on("request", function (request, response) {
   console.log("request " + request.url);
