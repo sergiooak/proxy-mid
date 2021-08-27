@@ -13,7 +13,6 @@ acceptor.on("request", function (request, response) {
   var connector = http.request(options, function (serverResponse) {
     serverResponse.pause();
     response.writeHeader(serverResponse.statusCode, serverResponse.headers);
-    // console.log(response);
     serverResponse.pipe(response);
     serverResponse.resume();
   });

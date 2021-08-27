@@ -1,6 +1,6 @@
 {
   "name": "oinnos-mid-https-new",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Middleware to pipe HTTPS requests to HTTP",
   "main": "index.js",
   "scripts": {
