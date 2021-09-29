@@ -5,7 +5,7 @@ const acceptor = http.createServer().listen(process.env.PORT || 21116);
 acceptor.on("request", function (request, response) {
   console.log("request " + request.url);
   request.pause();
-  var options = url.parse(request.url.replace("/", ""));
+  var options = url.parse(request.url.replace("/", "").replace("//", "/"));
   options.headers = request.headers;
   options.method = request.method;
   options.agent = false;
